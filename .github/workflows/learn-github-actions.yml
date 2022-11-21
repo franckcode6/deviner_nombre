@@ -1,7 +1,6 @@
 name: java CI
 on: push
-  branches:
-  -main
+  branches: ["main"]
 jobs:
   build:
     runs-on: windows-latest
